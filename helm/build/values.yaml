@@ -1,0 +1,15 @@
+app:
+  name: bancswissunique-poi-backend-app
+  namespace: bancswissunique
+  cluster: .apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/bancswissunique-backend
+  org: Summit23Janus2
+  name: bancswissunique-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: bancswissunique/poi-backend-app
+  tag: latest
